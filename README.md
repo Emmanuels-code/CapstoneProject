@@ -11,8 +11,8 @@ Project Structure
 
 ## Live Links:
 
-- **Frontend**: (https://emmanuels-travel-plan.netlify.app/)[https://emmanuels-travel-plan.netlify.app/]
-- **Backend**: (https://glitch.com/edit/#!/youthful-wandering-veil)[https://glitch.com/edit/#!/youthful-wandering-veil]
+- **Frontend**: (https://emmanuels-travel-plan.netlify.app/) [https://emmanuels-travel-plan.netlify.app/]
+- **Backend**: (https://glitch.com/edit/#!/youthful-wandering-veil) [https://glitch.com/edit/#!/youthful-wandering-veil]
 
 ## Features
 
@@ -58,19 +58,32 @@ The backend is built using Node.js and Express and provides the API for managing
 
 - User Authentication
 
-> POST /auth/signup: Registers a new user.
-> POST /auth/login: Authenticates a user and provides a JWT token.
+> POST /auth/signup:
+*Registers a new user*
+
+> POST /auth/login: 
+*Authenticates a user and provides a JWT token.*
 
 - Itinerary Management
-> GET /itineraries: Fetches all itineraries for an authenticated user.
-> POST /itineraries: Allows a user to create a new itinerary.
-> PUT /itineraries/:id: Updates an existing itinerary.
-> DELETE /itineraries/:id: Deletes an itinerary.
+> GET /itineraries: 
+*Fetches all itineraries for an authenticated user.*
+
+> POST /itineraries: 
+*Allows a user to create a new itinerary.*
+
+> PUT /itineraries/:id: 
+*Updates an existing itinerary.*
+
+> DELETE /itineraries/:id: 
+*Deletes an itinerary.*
 
 - Location Data
         
-> GET /locations: Returns a list of available locations.
-> GET /locations/:id: Fetches detailed information about a specific location.
+> GET /locations: 
+*Returns a list of available locations.*
+
+> GET /locations/:id: 
+*Fetches detailed information about a specific location.*
 
 **Tech Stack:**
 
@@ -86,7 +99,7 @@ Frontend
     Clone the repository:
 
 ```bash
-git clone <frontend-repo-url>
+git clone https://github.com/Emmanuels-code/travel-planner
 ```
 Install dependencies:
 
@@ -105,7 +118,7 @@ npm install
 Clone the backend repository:
 
 ```bash
-git clone <backend-repo-url>
+git clone https://github.com/Emmanuels-code/capstone-server
 ```
 
 ### Install dependencies:
